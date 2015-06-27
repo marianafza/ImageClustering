@@ -1,0 +1,6 @@
+import cv2
+import numpy as np
+
+im = '/Users/Mariana/mieec/Tese/Development/Final_imageRepresentation/Easy_Mid_sailing_427.jpg'
+img = cv2.imread(im,0)
+img_lab = cv2.cvtColor(img,CV_BGR2Lab)
